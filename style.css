@@ -75,12 +75,6 @@ body {
         padding: 10px; /* Innenabstand für Mobilgeräte */
     }
 
-    .link-button {
-        width: 100%; /* Schaltflächen auf volle Breite für Mobilgeräte */
-        padding: 10px; /* Weniger Padding für Mobilgeräte */
-        font-size: 16px; /* Kleinere Schriftgröße für Mobilgeräte */
-    }
-
     .profile img {
         width: 80px; /* Kleinere Bildgröße für Mobilgeräte */
     }
