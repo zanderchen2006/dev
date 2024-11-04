@@ -1,3 +1,3 @@
 Open DEV Website:
 
-https://zanderchen.de
+https://zanderchen.de/dev
