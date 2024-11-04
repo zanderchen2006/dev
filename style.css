@@ -4,7 +4,7 @@
     --background-color: #2b2b2b;
     --text-color: #ddd;
     --button-background: #171717;
-    --button-text-color: #C7F900;
+    --button-text-color: #4700f9;
     --button-hover-background: #373737;
 }
 
@@ -23,19 +23,24 @@ body {
 
 .profile {
     text-align: center;
-    margin: 20px; /* Abstand um das Profil herum */
+    margin: 20px;
+    /* Abstand um das Profil herum */
 }
 
 .profile img {
     width: 120px;
     border-radius: 50%;
-    max-width: 100%; /* Bild responsive machen */
-    height: auto;    /* Höhe automatisch anpassen */
+    max-width: 100%;
+    /* Bild responsive machen */
+    height: auto;
+    /* Höhe automatisch anpassen */
 }
 
 .links {
-    text-align: center; /* Zentriert die Links */
-    margin: 20px 0;    /* Abstand oben und unten */
+    text-align: center;
+    /* Zentriert die Links */
+    margin: 20px 0;
+    /* Abstand oben und unten */
 }
 
 .link-button {
@@ -71,15 +76,19 @@ body {
 /* Responsive Styles */
 @media (max-width: 600px) {
     body {
-        height: auto; /* Höhe automatisch anpassen für mobile Geräte */
-        padding: 10px; /* Innenabstand für Mobilgeräte */
+        height: auto;
+        /* Höhe automatisch anpassen für mobile Geräte */
+        padding: 10px;
+        /* Innenabstand für Mobilgeräte */
     }
 
     .profile img {
-        width: 80px; /* Kleinere Bildgröße für Mobilgeräte */
+        width: 80px;
+        /* Kleinere Bildgröße für Mobilgeräte */
     }
 
     h1 {
-        font-size: 24px; /* Kleinere Schriftgröße für den Titel */
+        font-size: 24px;
+        /* Kleinere Schriftgröße für den Titel */
     }
 }
