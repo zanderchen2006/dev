@@ -23,15 +23,19 @@ body {
 
 .profile {
     text-align: center;
+    margin: 20px; /* Abstand um das Profil herum */
 }
 
 .profile img {
     width: 120px;
     border-radius: 50%;
+    max-width: 100%; /* Bild responsive machen */
+    height: auto;    /* Höhe automatisch anpassen */
 }
 
 .links {
-    margin-top: 20px;
+    text-align: center; /* Zentriert die Links */
+    margin: 20px 0;    /* Abstand oben und unten */
 }
 
 .link-button {
@@ -64,24 +68,24 @@ body {
     font-size: 14px;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-}
+/* Responsive Styles */
+@media (max-width: 600px) {
+    body {
+        height: auto; /* Höhe automatisch anpassen für mobile Geräte */
+        padding: 10px; /* Innenabstand für Mobilgeräte */
+    }
 
-.links {
-    text-align: center; /* Zentriert die Links */
-    margin: 20px 0;    /* Abstand oben und unten */
-}
+    .link-button {
+        width: 100%; /* Schaltflächen auf volle Breite für Mobilgeräte */
+        padding: 10px; /* Weniger Padding für Mobilgeräte */
+        font-size: 16px; /* Kleinere Schriftgröße für Mobilgeräte */
+    }
 
-.profile {
-    text-align: center; /* Zentriert das Profil */
-    margin: 20px;      /* Abstand um das Profil herum */
-}
+    .profile img {
+        width: 80px; /* Kleinere Bildgröße für Mobilgeräte */
+    }
 
-img {
-    max-width: 100%;  /* Bild responsive machen */
-    height: auto;     /* Höhe automatisch anpassen */
+    h1 {
+        font-size: 24px; /* Kleinere Schriftgröße für den Titel */
+    }
 }
-
